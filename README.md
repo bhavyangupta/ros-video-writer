@@ -7,9 +7,9 @@
   _fps:=30 _width:=640 _height:=368 _display:=1
 
 # Options:
-topic : Name of the topic that is read
-file : Output file name
-fps : Frames per second(integer)
-width : Frame width
-height : Frame height
-display : Switch to enable video display during video writing
+* ~/topic : Name of the topic that is read
+* ~/file : Output file name
+* ~/fps : Frames per second(integer)
+* ~/width : Frame width
+* ~/height : Frame height
+* ~/display : Switch to enable video display during video writing
