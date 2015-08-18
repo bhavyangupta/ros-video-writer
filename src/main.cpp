@@ -1,12 +1,22 @@
-/******************************************************************************
-  * @author: Bhavya Narain Gupta  
-  * @date  : August 17,2015
-  * @brief : ROS node to read an image topic and create a .avi video from it
-  * @usage : rosrun video_writer topic_to_video _topic:=/camera/image
-             _file:=output/out.mkv _fps:=30 _width:=640 _height:=368 _display:=1
-******************************************************************************/
-#include "video_writer_t.hpp"
+/** \mainpage 
+* \section intro_sec Introduction
+* ROS node to read an image topic and create a .avi video from it 
+* \section use Usage
+  rosrun video_writer topic_to_video _topic:=/camera/image _file:=output/out.mkv
+  _fps:=30 _width:=640 _height:=368 _display:=1
+* \note  Parameters are explained in README.md
+* \author Bhavya Narain Gupta
+* \date August 17,2015
+*/
 
+#include "video_writer_t.hpp"
+/**
+* \fn main(int argc, char **argv)
+* \brief main function.
+
+Fetches parameters from CLI. Instantiates the video_writer_t object and waits 
+for callbacks to process.
+*/
 int main(int argc, char **argv){
   if(argc!=7){
     cout<<"INPUT ERROR!! Correct usage:" <<endl;

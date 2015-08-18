@@ -13,6 +13,11 @@ using std::string;
 using std::cout;
 using std::endl;
 
+/**
+* \class video_writer_t "inc/video_writer_t.hpp"
+* \brief Class to wrap topic read and file write
+*/
+
 class video_writer_t {
   public:
     video_writer_t(ros::NodeHandle &nh,string &topic, string &filename,
