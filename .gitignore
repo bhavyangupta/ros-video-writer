@@ -5,6 +5,7 @@ CMakeFiles/
 catkin_generated/
 install/
 sublime/
+Doxyfile
 CMakeCache.txt
 CTestTestfile.cmake
 Makefile
