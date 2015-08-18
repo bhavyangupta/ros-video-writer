@@ -4,6 +4,7 @@ gtest/
 CMakeFiles/
 catkin_generated/
 install/
+sublime/
 CMakeCache.txt
 CTestTestfile.cmake
 Makefile
