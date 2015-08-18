@@ -1,0 +1,12 @@
+catkin/
+devel/
+gtest/
+CMakeFiles/
+catkin_generated/
+install/
+CMakeCache.txt
+CTestTestfile.cmake
+Makefile
+cmake_install.cmake
+install_manifest.txt
+topic_to_video
